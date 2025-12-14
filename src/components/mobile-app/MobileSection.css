@@ -1,0 +1,40 @@
+.mobile-main {
+  width: 100%;
+  padding: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.mobile {
+  text-align: center;
+}
+
+.mobile h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+.mobile img {
+  width: 180px;
+  height: 60px;
+  margin: 0 0.8rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.mobile img:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .mobile h1 {
+    font-size: 1.4rem;
+    padding: 0 1rem;
+  }
+
+  .mobile img {
+    width: 130px;
+    margin: 0.5rem;
+  }
+}

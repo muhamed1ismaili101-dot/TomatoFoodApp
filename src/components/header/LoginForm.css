@@ -1,0 +1,60 @@
+.login-main {
+  width: auto;
+  background: #fff;
+  padding: 24px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-family: sans-serif;
+}
+
+
+.login-title {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+
+.login-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: tomato; 
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.register-text {
+  font-size: 14px;
+  text-align: center;
+}
+
+.register-btn {
+  background: none;
+  border: none;
+  color: tomato;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 6px;
+}

@@ -1,0 +1,197 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 15px ;
+  background: white;
+  padding: 0 10rem;
+  margin-top: 1rem;
+}
+
+.tomato-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.nav-menu li {
+  cursor: pointer;
+  color: #49557e;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #49557e;
+}
+.cart-link {
+  position: relative;
+  display: inline-block;
+}
+
+.cart-dot {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 50%;
+}
+
+
+.header-actions svg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  fill: currentColor;
+}
+
+
+.header-actions button {
+  padding: 10px 25px;
+  background-color: white;
+  border: 1px solid tomato;
+  color: #49557e;
+  border-radius: 800px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+.header-actions button:hover{
+    background-color: rgb(235, 212, 208);
+}
+.logged-menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 20px;
+}
+
+.logged-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: #333;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.logged-link:hover {
+  background: #f1f1f1;
+}
+
+.logout-btn {
+  padding: 7px 14px;
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.logout-btn:hover {
+  background: #e63939;
+}
+.register-link{
+  color: tomato;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+
+  .header {
+    padding: 0 1rem;      
+    margin-top: 0.5rem;
+    justify-content: space-between;
+  }
+
+
+  .tomato-logo img {
+    width: 120px;
+  }
+
+
+  .nav-menu {
+    display: none;
+  }
+
+
+  .header-actions {
+    gap: 14px;
+  }
+
+
+  .header-actions svg {
+    width: 26px;
+    height: 26px;
+  }
+
+
+  .header-actions button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+
+  .logged-menu {
+    gap: 10px;
+    margin-left: 10px;
+  }
+
+  .logged-link {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  .logout-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .cart-dot {
+    width: 8px;
+    height: 8px;
+    top: -4px;
+    right: -4px;
+  }
+  
+  .register-link {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .header-actions {
+    gap: 10px;
+  }
+
+  .header-actions button {
+    padding: 6px 14px;
+    font-size: 13px;
+  }
+
+  .tomato-logo img {
+    width: 105px;
+  }
+}
