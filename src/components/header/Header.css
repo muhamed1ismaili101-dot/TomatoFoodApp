@@ -42,6 +42,7 @@
 .cart-link {
   position: relative;
   display: inline-block;
+  color: #808080;
 }
 
 .cart-dot {
