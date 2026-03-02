@@ -1,70 +1,141 @@
-# TomatoFoodApp
+# 🍅 Tomato – Food Delivery Web Application
 
-React-based food ordering web application built with Vite and integrated with Firebase Firestore.
+A modern food ordering web application built with **React, Vite, and Firebase**.  
+This project demonstrates frontend architecture, authentication flow, state management, and responsive UI development suitable for internship-level software engineering roles.
 
-This project demonstrates modular component architecture, client-side routing, and structured state management in a modern frontend environment.
-
----
-
-## 🚀 Live Demo
-
-https://tomato-food-app-alpha.vercel.app
+🔗 **Live Demo:** https://tomato-food-app-alpha.vercel.app  
+📂 **Repository:** https://github.com/muhamed1ismaili101-dot/TomatoFoodApp  
 
 ---
 
-## 📸 Screenshots
+## 🚀 Overview
 
-### Homepage
-![Homepage](./screenshots/home.png)
+Tomato is a responsive food delivery platform where users can:
 
-### Menu Section
-![Menu](./screenshots/menu.png)
+- Browse categorized meals
+- Add and remove items from a shopping cart
+- View real-time cart totals
+- Register and authenticate securely
+- Complete a checkout process
 
-### Cart Page
-![Cart](./screenshots/cart.png)
+The application simulates a real-world e-commerce flow and focuses on clean component structure and scalable frontend design.
 
 ---
 
-## 🧰 Tech Stack
+## 🛠 Tech Stack
 
-- React.js
-- JavaScript (ES6+)
+**Frontend**
+- React 19
 - Vite
-- Firebase
-- Firestore
 - React Router
-- Context API
+- JavaScript (ES6+)
 - CSS
+
+**Services**
+- Firebase Authentication
+- Firebase (data handling)
+
+**Deployment**
+- Vercel
 
 ---
 
 ## ✨ Key Features
 
-- Dynamic rendering of food items
-- Interactive shopping cart with quantity control
-- Real-time total price calculation
-- Client-side routing with React Router
-- Modular and reusable component structure
-- Responsive UI design
-- Firebase Firestore integration
+- Component-based architecture
+- Client-side routing
+- Authentication (Login / Signup)
+- Dynamic cart logic with automatic total calculation
+- Category-based filtering
+- Checkout form handling
+- Responsive layout
+- Optimized production build with Vite
 
 ---
 
-## 🏗 Architecture Overview
+## 🧠 Architecture
 
-The application follows a component-based structure:
+The application follows a modular React structure:
 
 - Reusable UI components
 - Centralized state handling for cart logic
-- Firestore data integration
-- Page-level routing separation
+- Separation of page-level views using React Router
+- Authentication flow integrated with Firebase
+- Clean separation between presentation and logic
 
-The structure allows scalability and easy extension to API-based data sources.
+This structure allows scalability and future backend/API integration.
+
+---
+
+## 📸 Screenshots
+
+### Home Page
+![Home](screenshots/01-home.png)
+
+### Menu Listing
+![Menu](screenshots/03-menu.png)
+
+### Cart Page
+![Cart](screenshots/04-cart.png)
+
+### Checkout Page
+![Checkout](screenshots/05-checkout.png)
+
+### Authentication (Login)
+![Login](screenshots/06-login-modal.png)
 
 ---
 
 ## 📦 Installation & Setup
 
+Clone the repository:
+
+```bash
+git clone https://github.com/muhamed1ismaili101-dot/TomatoFoodApp.git
+cd TomatoFoodApp
+```
+
+Install dependencies:
+
 ```bash
 npm install
+```
+
+Run development server:
+
+```bash
 npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 📈 What This Project Demonstrates
+
+- Strong understanding of React fundamentals
+- Practical routing and component architecture
+- Authentication flow implementation
+- State-driven UI updates
+- Form handling and validation
+- Deployment workflow knowledge
+
+---
+
+## 👨‍💻 Author
+
+Muhamed Ismaili  
+Computer Science & Engineering Student – UIST Ohrid  
+
+📧 muhamed.is2020@gmail.com  
+🔗 https://www.linkedin.com/in/muhamed-ismaili-4bb8343a9/
+
+---
+
+## 📄 License
+
+Developed for educational and portfolio purposes.
