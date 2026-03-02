@@ -72,17 +72,32 @@ This structure allows scalability and future backend/API integration.
 ### Home Page
 ![Home](screenshots/01-home.png)
 
+Landing page with featured meals, category navigation, and call-to-action section.  
+Built using reusable React components and structured layout composition. 
+
 ### Menu Listing
 ![Menu](screenshots/03-menu.png)
+
+Grid-based food listing with interactive add-to-cart functionality.  
+Each item is rendered dynamically and updates application state on interaction.
 
 ### Cart Page
 ![Cart](screenshots/04-cart.png)
 
+Interactive shopping cart with quantity management and automatic total calculation.  
+Demonstrates centralized state handling and real-time UI updates.
+
 ### Checkout Page
 ![Checkout](screenshots/05-checkout.png)
 
+Structured checkout form with order summary and total display.  
+Implements controlled inputs and state-driven order calculation.
+
 ### Authentication (Login)
 ![Login](screenshots/06-login-modal.png)
+
+Modal-based authentication interface integrated with Firebase.  
+Handles conditional rendering based on user authentication state.
 
 ---
 
